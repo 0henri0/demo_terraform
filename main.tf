@@ -1,6 +1,5 @@
 resource "aws_instance" "app_server" {
  count = 2
- ami = "ami-02453f5468b897e31xxxxx"
  instance_type = "t2.micro"
 }
 
